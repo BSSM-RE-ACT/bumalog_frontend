@@ -1,0 +1,17 @@
+    * {margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Pretendard', sans-serif; background-color: #ffffff; color: #000000; line-height: 1.6; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+  
+  
+  
+  
+  
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;  
+      padding: 15px 10%;
+      border-bottom: 1px solid #eee;
+      background: #ffffff;
+    }
