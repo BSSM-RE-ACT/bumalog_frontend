@@ -17,7 +17,7 @@
 }
 .header h2{
     font-size : 30px;
-    color : rgb(99, 130, 240);
+    color : rgba(99, 130, 240, 1);
     padding-bottom : 0px;
 }
 .main_container{
