@@ -1,1 +1,0 @@
-print("tlqkf wlqrkrhtvek")
