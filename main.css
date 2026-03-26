@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Giants';
+    src: url('./assets/Giants-Inline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {margin: 0; padding: 0; }
 
 /* a태그 검정,밑줄 제거 */
@@ -52,7 +59,7 @@ a{
 }
 
 .logo-btn {
-    
+    font-family: Giants;
     background-color: #E0E0E0;
     background-color: transparent;
     border: none;
