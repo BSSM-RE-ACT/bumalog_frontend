@@ -1,5 +1,11 @@
 * {margin: 0; padding: 0; }
 
+/* a태그 검정,밑줄 제거 */
+a{
+    text-decoration: none;
+    color: black;
+}
+
 
 
 .container {
@@ -7,6 +13,7 @@
     margin: 0 auto;
 }
 
+/* 네비게이션 바 */
 .nav {
     width: 100%;
     height: 96px;
@@ -15,7 +22,7 @@
     display:flex;
     align-items: center;
 }
-
+/* 왼쪽 */
 .left {
     display: flex;
     align-items: center;
@@ -27,36 +34,48 @@
     width: 50px;
     height: 50px;
     background-image: url('부마로그.png');
-    float: left;
     margin-left: 30px;
 }
 
-.logo-btn {
-    font-size: 22px;
-    font-weight: 800;
-    background-color: transparent; 
-    border: none;                 
-    outline: none;               
-    cursor: pointer;
-    padding: 0;
-}
 
+
+/* 오른쪽 */
 .right {
     display: flex;
     align-items: center;
     width: 50%;
     height: 96px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    gap: 20px;
 }
 
-.login-btn {
-    width: 100px;
-    height: 50px;
-    border: 1px solid #000000;
-    border-radius: 4px;
-    background-color: #ffffff;
-    color: #000000;
+.logo-btn {
+    
+    background-color: #E0E0E0; 
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+    width: 60px;
+    height: 25px;
     font-size: 14px;
-    margin-left: 1100px;
+}
+
+
+
+
+
+.login-btn {
+    width: 60px;
+    height: 25px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
 }
 
 .head{
@@ -68,8 +87,8 @@
 .main{
     width: 100%;
     height: 909px;
-    background-color: rgba(99,102,241,0.08);
-
+    background-color: #f3f3fe;
+    
 }
 
 .text1 {
