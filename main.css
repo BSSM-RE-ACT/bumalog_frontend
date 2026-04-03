@@ -106,18 +106,42 @@ a{
     width: 100%;
     height: 358px;
     background-color: #ffffff;
+    text-align: center;
+    padding: 1px;
+    
+}
+
+.head_buma{
+    font-size: 80px;
+    margin-top: 120px;
+    font-weight:bold;
+
 }
 
 .main{
     width: 100%;
     height: 909px;
     background-color: #f3f3fe;
+    padding: 1px;
     
 }
 
 .text1 {
     color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
 }
+
+.text1_1 {
+    color:#757575;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+
 
 .foot{
     width: 100%;
