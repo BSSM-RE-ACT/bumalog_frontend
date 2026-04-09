@@ -104,7 +104,7 @@ a{
     border-radius: 7px;
     background-color: #000000;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
 }
 
@@ -161,9 +161,6 @@ a{
 .logo:hover{
     cursor: pointer;
 }
-
-
-
-
-
-
+.profile_edit_B{
+    margin-left:120px;
+}
