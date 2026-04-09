@@ -49,9 +49,7 @@ a{
     height: 30px;
     background-image: url('부마로그_2.png');
 }
-.logo_2:hover {
-    cursor: pointer;
-}
+
 
 
 /* 오른쪽 */
@@ -106,7 +104,7 @@ a{
     border-radius: 7px;
     background-color: #000000;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
 }
 
@@ -163,9 +161,6 @@ a{
 .logo:hover{
     cursor: pointer;
 }
-
-
-
-
-
-
+.profile_edit_B{
+    margin-left:120px;
+}
