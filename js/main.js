@@ -1,5 +1,5 @@
-const loginBth = document.querySelector('.login-bth');
+const loginBth = document.querySelector('.login-btn');
 
 function isLogin(){
-    window.location.href = '로그인페이지.html';
-}
+    window.location.href = '../html/login.html';
+}   
