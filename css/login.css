@@ -1,14 +1,66 @@
-.body{
-    background-color: #c5c5f2;
-    padding: 1px;
+*, *::before, *::after {
+    box-sizing: border-box; margin: 0; padding: 0;
 }
 
-.main{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 200px;
+.body {
+    background-color: #c5c5f2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
     width: 370px;
-    height: 270px;
-    background-color: rgb(255, 255, 255);
+    min-height: 270px;
+    background-color: #ffffff;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 1.75rem;
+    width: 100%;
+}
+
+.login_text {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1a1a2e;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.btn-google {
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #d8d8f5;
+    border-radius: 8px;
+    color: #1a1a2e;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    padding: 0.65rem 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+.btn-google:hover {
+    background: #f5f5fd;
+    border-color: #a0a0e8;
+}
+
+.btn-google:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
