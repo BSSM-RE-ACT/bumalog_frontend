@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BUMA MYPAGE</title>
+    <title>BUMA-LOG</title>
     <link href="../css/mypage.css" rel="stylesheet">
+    <script src="../js/main.js" defer></script>
 </head>
 <body>
-        <div class="container">
+    <div class="container">
         <div class="nav">
             <div class="left">
                 <a>
-                    <img class="logo" src="./부마로그.png" alt="logo" onclick="">
+                    <img class="logo" src="../assets/부마로그.png" alt="logo" onclick="">
                 </a>
                 <a>
-                    <img class="logo_2" src="./부마로그_2.png" alt="logo" onclick="">
-                </a>
+                    <img class="logo_2" src="../assets/부마로그_2.png" alt="logo" onclick="">
+                </a> <!-- 마우스 올렸을때 안바뀜 -->
             </div>
             <div class="right">
                 <button class="de-btn " onclick="">
@@ -26,24 +27,30 @@
                 커뮤니티
                 </button>
 
-                <button class="login-btn" onclick="isLogin()">
+                <button class="login-btn active" onclick="isLogin()">
                 마이페이지
                 </button>
                 
             </div>
         </div>
+        <div class="head">
+            <p class="head_buma">BUMA - LOG</p>
+        </div>
         <div class="main">
-            <p class="text1">차희망</p>
-            <p class="text1_1"> BUMA-LOG</p>
-            <button class="profile_edit_B">
-            마이페이지
-            </button>
-            <hr>
-            
-
+            <p class="text1">최신 부마로그</p>
+            <p class="text1_1">RECENTLY BUMA-LOG</p>
             
         </div>
-        <div class="foot"></div>
+        <div class="foot">
+            <div class="left_foot">
+                <p class="left_foot_text1">BUMA-LOG</p>
+                <br>
+                <p class="left_foot_text2">제작: RE:ACT 동아리 | 관리: RE:ACT 동아리 | 문의:</p>
+
+            </div>
+            <div class="right_foot">
+            </div>
+        </div>
         
 
     </div>
